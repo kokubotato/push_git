@@ -17,7 +17,7 @@ int main(){
   double dt = 0.01;
 
   for(int x = 0;x < 100;x++){
-    printf("%f\n",f(x));
+    printf("%f\n",gx(x,500));
   }
   return 0;
 }
